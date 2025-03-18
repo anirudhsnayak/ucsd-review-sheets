@@ -119,7 +119,7 @@ Pigeonhole Principles: Let $X, Y$ be finite sets
 $\hspace{15pt}$ Pigeonhole Principle: 
 $\hspace{15pt}$ $\hspace{15pt}$ If $|X|>|Y|$, for all functions $f:X\to Y$, there exist $x_{1},x_{2}\in X$ such that $f(x_{1})=f(x_{2})$ 
 $\hspace{15pt}$ Generalized Pigeonhole Principle:
-$\hspace{15pt}$ $\hspace{15pt}$ For all functions $f:X\to Y$ it's always true that $|X|\leq|Y||\text{max}(f^{-1}(y_{k}))|$.
+$\hspace{15pt}$ $\hspace{15pt}$ For all functions $f:X\to Y$ it's always true that $|X|\leq|Y|\cdot{}\text{max}(|f^{-1}(y_{k})|)$.
 $\hspace{15pt}$ $\hspace{15pt}$ The maximum is taken over all $y_{k}\in Y$.
 Counting: Consider two finite sets $X$ and $Y$, where $|X|=n$ and $|Y|=m$
 $\hspace{15pt}$ $\text{Fun}(X, Y)$: set of all functions from $X$ to $Y$
