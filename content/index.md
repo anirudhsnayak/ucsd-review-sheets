@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to plastic's UCSD review sheets
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This webpage hosts all of my UCSD review sheets. 
