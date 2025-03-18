@@ -1,10 +1,10 @@
 Propositions:
 $\hspace{15pt}$ Absurdity:  $F\implies P$ is always true.
 $\hspace{15pt}$ Language:
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ only if } Q \text{''}}\hspace{110pt}$ means $P\implies Q$
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ if } Q \text{''}}\hspace{110pt}$ means $Q\implies P$
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ is sufficient for } Q \text{''}}\hspace{110pt}$ means $P\implies Q$ 
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ is necessary for } Q \text{''}}\hspace{110pt}$ means $Q\implies P$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{\text{``\(P\) only if \(Q\)''}}\hspace{110pt}$ means $P\implies Q$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{\text{``\(P\) if \(Q\)''}}\hspace{110pt}$ means $Q\implies P$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{\text{``\(P\) is sufficient for \(Q\)''}}\hspace{110pt}$ means $P\implies Q$ 
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{\text{``\(P\) is necessary for \(Q\)''}}\hspace{110pt}$ means $Q\implies P$
 $\hspace{15pt}$ Contrapositive:$\hspace{25pt}$ $(A\implies B)$ equals $(!B\implies!A)$
 $\hspace{15pt}$ Negation of Implies: $\hspace{3pt}$ $\text{!}(A\implies B)$ equals $(A \text{ and }!B)$
 $\hspace{15pt}$ De Morgan's Laws:
@@ -138,7 +138,7 @@ Choose Identities:
 $\hspace{15pt}$ Binomial Theorem
 $\hspace{15pt}$ $\hspace{15pt}$ $\displaystyle(x+y)^n=\sum_{i=0}^n{n \choose i}x^iy^{n-i}$
 $\hspace{15pt}$ Miscellaneous:
-$\hspace{15pt}$ $\hspace{15pt}$   $\displaystyle{n \choose k}={n \choose n-k}$ $\\[15pt]$
+$\hspace{15pt}$ $\hspace{15pt}$   $\displaystyle{n \choose k}={n \choose n-k}$ 
 $\hspace{15pt}$ $\hspace{15pt}$   $\displaystyle{n \choose k}\cdot{}k! =(n)_{k}$
 Theorems
 $\hspace{15pt}$ Cardinality of Power Set 
