@@ -1,14 +1,14 @@
 Propositions:
 $\hspace{15pt}$ Absurdity:  $F\implies P$ is always true.
 $\hspace{15pt}$ Language:
-$\hspace{15pt}$ $\hspace{15pt}$ "$P$ only if $Q$"$\hspace{46pt}$ means $P\implies Q$
-$\hspace{15pt}$ $\hspace{15pt}$ "$P$ if $Q$"$\hspace{68pt}$ means $Q\implies P$
-$\hspace{15pt}$ $\hspace{15pt}$ "$P$ is sufficient for $Q$" $\hspace{10pt}$means $P\implies Q$
-$\hspace{15pt}$ $\hspace{15pt}$ "$P$ is necessary for $Q$"$\hspace{11pt}$means $Q\implies P$
-$\hspace{15pt}$ Contrapositive:$\hspace{30pt}$ $(A\implies B)$ equals $(!B\implies!A)$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ only if } Q\text{''}}\hspace{110pt}$ means $P\implies Q$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ if } Q\text{''}}\hspace{110pt}$ means $Q\implies P$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ is sufficient for } Q\text{''}}\hspace{110pt}$ means $P\implies Q$ 
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ is necessary for } Q\text{''}}\hspace{110pt}$ means $Q\implies P$
+$\hspace{15pt}$ Contrapositive:$\hspace{25pt}$ $(A\implies B)$ equals $(!B\implies!A)$
 $\hspace{15pt}$ Negation of Implies: $\hspace{3pt}$ $\text{!}(A\implies B)$ equals $(A \text{ and }!B)$
 $\hspace{15pt}$ De Morgan's Laws:
-$\hspace{15pt}$ $\hspace{15pt}$ $!(P \text{ or } Q) ={} !P\text{ and }!Q$
+$\hspace{15pt}$ $\hspace{15pt}$ $!(P \text{ or } Q) ={} !P\text{ and }!Q$ 
 $\hspace{15pt}$ $\hspace{15pt}$ $!(P\text{ and }Q)={}!P\text{ or }!Q$
 Proofs: 
 $\hspace{15pt}$ Direct: 
@@ -40,7 +40,7 @@ $\hspace{15pt}$ $\hspace{15pt}$ $x\in A\cap B$ $\leftrightarrow$ $x\in A \text{ 
 $\hspace{15pt}$ $\hspace{15pt}$ Union and Intersect are associative, commutative, and distributive.
 $\hspace{15pt}$ Complement, Set Difference
 $\hspace{15pt}$ $\hspace{15pt}$ $x\in A^c$ $\leftrightarrow$ $x\not\in A$
-$\hspace{15pt}$ $\hspace{15pt}$ $A-B =\{ x\in A\mid\\x\not\in B \}= A\cap B^c$
+$\hspace{15pt}$ $\hspace{15pt}$ $A-B =\{ x\in A\mid x\not\in B \}= A\cap B^c$
 $\hspace{15pt}$ Power Set: $\mathcal{P}(A)$ or ${2}^A$
 $\hspace{15pt}$ $\hspace{15pt}$ The set of all subsets of $A$, $|\mathcal{P}(A)|=2^{|A|}$
 $\hspace{15pt}$ Subset vs Element of:  
@@ -67,13 +67,13 @@ $\hspace{15pt}$ $\hspace{15pt}$ $\hspace{15pt}$ Then you obtain a theorem with "
 $\hspace{15pt}$ $\hspace{15pt}$ For proving statements false, take the negation and prove it true
 $\hspace{15pt}$ $\hspace{15pt}$ Advanced: you can use contradiction on quantifier statements
 Set Builder Notation:
-$\hspace{15pt}$ Let $S=\{ x\in \mathbb{R}\mid\\P(x) \}$, then
-$\hspace{15pt}$ $\hspace{15pt}$$\forall x\in \mathbb{R}$, $P(x)$ is true $\iff$ $x\in S$
+$\hspace{15pt}$ Let $S=\{ x\in \mathbb{R}\mid P(x) \}$, then
+$\hspace{15pt}$ $\hspace{15pt}$ $\forall x\in \mathbb{R}$, $P(x)$ is true $\iff$ $x\in S$
 $\hspace{15pt}$ Let $S=\{ f(x)\mid\ x \in \mathbb{R} \}$, then
 $\hspace{15pt}$ $\hspace{15pt}$ $\forall x\in \mathbb{R}, f(x)\in S$
 $\hspace{15pt}$ Bounding Sets:
-$\hspace{15pt}$ $\hspace{15pt}$ if $P(x)\implies Q(x)$, then $\{ x\in \mathbb{R}\mid\\P(x) \}\subseteq \{ x\in \mathbb{R}\mid\\Q(x) \}$
-$\hspace{15pt}$ $\hspace{15pt}$ if $O(x)\implies P(x)$, then $\{ x\in \mathbb{R}\mid\\O(x) \}\subseteq \{ x\in \mathbb{R}\mid\\P(x) \}$
+$\hspace{15pt}$ $\hspace{15pt}$ if $P(x)\implies Q(x)$, then $\{ x\in \mathbb{R}\mid P(x) \}\subseteq \{ x\in \mathbb{R}\mid Q(x) \}$
+$\hspace{15pt}$ $\hspace{15pt}$ if $O(x)\implies P(x)$, then $\{ x\in \mathbb{R}\mid O(x) \}\subseteq \{ x\in \mathbb{R}\mid P(x) \}$
 Functions: Let $X$, $Y$ be sets.
 $\hspace{15pt}$ Definition:
 $\hspace{15pt}$ $\hspace{15pt}$ A function $f:X\to Y$ is a unique assignment $y=f(x)\in Y$ for every $x\in X$
@@ -108,7 +108,7 @@ $\hspace{15pt}$ Finite: $X$ is finite and $|X|=n$ if there exists a bijection $f
 $\hspace{15pt}$ Cardinality relations for sets $X$, $Y$ (not necessarily finite).
 $\hspace{15pt}$ $\hspace{15pt}$ If there is a bijection $f:$ $X\to Y$, then $|X|=|Y|$
 $\hspace{15pt}$ $\hspace{15pt}$ If there is an injection $f:$ $X\to Y$, then $|X|\leq |Y|$
-$\hspace{15pt}$ $\hspace{15pt}$ If there is a surjection $f:$$X\to Y$, then $|X|\geq|Y|$
+$\hspace{15pt}$ $\hspace{15pt}$ If there is a surjection $f:$ $X\to Y$, then $|X|\geq|Y|$
 $\hspace{15pt}$ $\hspace{15pt}$ The contrapositives of these statements are useful.
 $\hspace{15pt}$ Denumerable/Enumerable: $X$ is equipotent to $\mathbb{Z}^{+}$.
 $\hspace{15pt}$ Countable: $X$ is either finite or denumerable.
