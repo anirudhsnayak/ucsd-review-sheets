@@ -1,10 +1,10 @@
 Propositions:
 $\hspace{15pt}$ Absurdity:  $F\implies P$ is always true.
 $\hspace{15pt}$ Language:
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ only if } Q\text{''}}\hspace{110pt}$ means $P\implies Q$
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ if } Q\text{''}}\hspace{110pt}$ means $Q\implies P$
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ is sufficient for } Q\text{''}}\hspace{110pt}$ means $P\implies Q$ 
-$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``}P \text{ is necessary for } Q\text{''}}\hspace{110pt}$ means $Q\implies P$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ only if } Q \text{''}}\hspace{110pt}$ means $P\implies Q$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ if } Q \text{''}}\hspace{110pt}$ means $Q\implies P$
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ is sufficient for } Q \text{''}}\hspace{110pt}$ means $P\implies Q$ 
+$\hspace{15pt}$ $\hspace{15pt}$ $\rlap{ \text{``} P \text{ is necessary for } Q \text{''}}\hspace{110pt}$ means $Q\implies P$
 $\hspace{15pt}$ Contrapositive:$\hspace{25pt}$ $(A\implies B)$ equals $(!B\implies!A)$
 $\hspace{15pt}$ Negation of Implies: $\hspace{3pt}$ $\text{!}(A\implies B)$ equals $(A \text{ and }!B)$
 $\hspace{15pt}$ De Morgan's Laws:
@@ -67,10 +67,8 @@ $\hspace{15pt}$ $\hspace{15pt}$ $\hspace{15pt}$ Then you obtain a theorem with "
 $\hspace{15pt}$ $\hspace{15pt}$ For proving statements false, take the negation and prove it true
 $\hspace{15pt}$ $\hspace{15pt}$ Advanced: you can use contradiction on quantifier statements
 Set Builder Notation:
-$\hspace{15pt}$ Let $S=\{ x\in \mathbb{R}\mid P(x) \}$, then
-$\hspace{15pt}$ $\hspace{15pt}$ $\forall x\in \mathbb{R}$, $P(x)$ is true $\iff$ $x\in S$
-$\hspace{15pt}$ Let $S=\{ f(x)\mid\ x \in \mathbb{R} \}$, then
-$\hspace{15pt}$ $\hspace{15pt}$ $\forall x\in \mathbb{R}, f(x)\in S$
+$\hspace{15pt}$ Let $S=\{ x\in \mathbb{R}\mid P(x) \}$, then $\forall x\in \mathbb{R}$, $P(x)$ is true $\iff$ $x\in S$
+$\hspace{15pt}$ Let $S=\{ f(x)\mid\ x \in \mathbb{R} \}$, then $\forall x\in \mathbb{R}, f(x)\in S$
 $\hspace{15pt}$ Bounding Sets:
 $\hspace{15pt}$ $\hspace{15pt}$ if $P(x)\implies Q(x)$, then $\{ x\in \mathbb{R}\mid P(x) \}\subseteq \{ x\in \mathbb{R}\mid Q(x) \}$
 $\hspace{15pt}$ $\hspace{15pt}$ if $O(x)\implies P(x)$, then $\{ x\in \mathbb{R}\mid O(x) \}\subseteq \{ x\in \mathbb{R}\mid P(x) \}$
