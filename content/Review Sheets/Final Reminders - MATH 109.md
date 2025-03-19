@@ -34,11 +34,11 @@ $\hspace{15pt}$ Equal, Subset:
 $\hspace{15pt}$ $\hspace{15pt}$ $(x\in A \iff x\in B) \leftrightarrow$ $(A=B)$
 $\hspace{15pt}$ $\hspace{15pt}$ $(x\in A\implies x\in B) \leftrightarrow (A\subseteq B)$
 $\hspace{15pt}$ $\hspace{15pt}$ ($A\subseteq B$ but $A\not=B$) $\leftrightarrow$ $(A\subset B)$   (called a strict subset)
-$\hspace{15pt}$ Union, Intersect
+$\hspace{15pt}$ Union, Intersect:
 $\hspace{15pt}$ $\hspace{15pt}$ $x\in A \cup B$ $\leftrightarrow$ $x\in A \text{ or } x\in B$
 $\hspace{15pt}$ $\hspace{15pt}$ $x\in A\cap B$ $\leftrightarrow$ $x\in A \text{ and } x\in B$
 $\hspace{15pt}$ $\hspace{15pt}$ Union and Intersect are associative, commutative, and distributive.
-$\hspace{15pt}$ Complement, Set Difference
+$\hspace{15pt}$ Complement, Set Difference:
 $\hspace{15pt}$ $\hspace{15pt}$ $x\in A^c$ $\leftrightarrow$ $x\not\in A$
 $\hspace{15pt}$ $\hspace{15pt}$ $A-B =\{ x\in A\mid x\not\in B \}= A\cap B^c$
 $\hspace{15pt}$ Power Set: $\mathcal{P}(A)$ or ${2}^A$
@@ -85,7 +85,7 @@ $\hspace{15pt}$ Composition: $f\circ g$
 $\hspace{15pt}$ $\hspace{15pt}$ Definition: $(f\circ g)(x)=f(g(x))$
 $\hspace{15pt}$ $\hspace{15pt}$ Consider $f:Y\to Z$, $g:X\to Y$ 
 $\hspace{15pt}$ $\hspace{15pt}$ $\hspace{15pt}$ Then $f\circ g$ is a function from $X$ to $Z$.
-$\hspace{15pt}$ Function Properties
+$\hspace{15pt}$ Function Properties:
 $\hspace{15pt}$ $\hspace{15pt}$ Equality: $f=g$ iff $\forall x\in X, f(x)=g(x)$
 $\hspace{15pt}$ $\hspace{15pt}$ Range: $\text{range}(f)=\{ f(x)\mid x\in X \}$
 $\hspace{15pt}$ $\hspace{15pt}$ Surjectivity: (onto)
@@ -113,7 +113,7 @@ $\hspace{15pt}$ Countable: $X$ is either finite or denumerable.
 Inclusion-Exclusion: Let $X, Y$ be finite sets.
 $\hspace{15pt}$ Then $|X\cup Y|=|X|+|Y|-|X\cap Y|$
 $\hspace{15pt}$  This can be generalized to more unions (just remember to keep alternating the signs)
-$\hspace{15pt}$ $\hspace{15pt}$ $|\displaystyle\bigcup_{i=1}^{n}X_{i}|=\sum_{X\subseteq \mathbb{N}_{n}}(-1)^{|I|+1}|X_{I}|$
+$\hspace{15pt}$ $\hspace{15pt}$ $|\displaystyle\bigcup_{i=1}^{n}X_{i}|=\sum_{I\subseteq \mathbb{N}_{n}}(-1)^{|I|+1}|X_{I}|$
 $\hspace{15pt}$ Draw the Venn diagram if you're stuck
 Pigeonhole Principles: Let $X, Y$ be finite sets
 $\hspace{15pt}$ Pigeonhole Principle: 
@@ -141,7 +141,7 @@ $\hspace{15pt}$ Miscellaneous:
 $\hspace{15pt}$ $\hspace{15pt}$   $\displaystyle{n \choose k}={n \choose n-k}$ 
 $\hspace{15pt}$ $\hspace{15pt}$   $\displaystyle{n \choose k}\cdot{}k! =(n)_{k}$
 Theorems
-$\hspace{15pt}$ Cardinality of Power Set 
+$\hspace{15pt}$ Cardinality of Power Set:
 $\hspace{15pt}$ $\hspace{15pt}$ For all sets $X$, we have that $|X|<|\mathcal{P}(X)|$  
 $\hspace{15pt}$ Schröder-Bernstein:
 $\hspace{15pt}$ $\hspace{15pt}$ If there is an injection $X\to Y$ and an injection $Y\to X$, 
